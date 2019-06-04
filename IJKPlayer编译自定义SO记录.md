@@ -7,6 +7,12 @@
 3.确认需要添加的支持功能：
 例如 HTTPS
  https://www.jianshu.com/p/bd289e25d272 这是例子
+ 注意 HTTPS 不是通过ffmpeg配置实现的，而是通过配置ijk播放器实现的。
+ 在编译ijk时要做以下步骤
+ ./init-android-openssl.sh
+./init-android.sh
+ 具体看上面的链接
+ 
  
  rtsp支持
  https://blog.csdn.net/qq_19317197/article/details/83084631
